@@ -212,8 +212,8 @@ body {
 
 /* line 35, ../scss/screen.scss */
 #menu > a img {
-  width: 50%;
-  margin: 40px auto;
+  width: 60%;
+  margin: 50px auto;
   display: block;
 }
 
@@ -247,10 +247,10 @@ html, body {
 
 /* line 68, ../scss/screen.scss */
 .menu-button {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   position: absolute;
-  left: 50%;
+  left: 35%;
   top: 50%;
   margin: -75px 0 0 -75px;
   border-radius: 50%;
@@ -264,7 +264,7 @@ html, body {
   color: #8cc;
   margin: 0px;
   font-size: 20px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Alegreya Sans', cursive;
   text-align: center;
 }
 
@@ -348,7 +348,7 @@ html, body {
   line-height: 12px;
   white-space: nowrap;
   box-shadow: 4px 4px 8px transparent;
-  font-family: Lobster;
+  font-family: "Alegreya Sans";
 }
 
 /* line 151, ../scss/screen.scss */

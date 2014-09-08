@@ -33,8 +33,8 @@ body {
     background-size: cover;
 }
 #menu > a img {
-    width: 50%;
-    margin: 40px auto;
+    width: 60%;
+    margin: 50px auto;
     display: block;
 }
 
@@ -66,18 +66,18 @@ html, body {
 }
 
 .menu-button {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   h1{
     line-height: 150px;
     color:#8cc;
     margin:0px;
     font-size:20px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Alegreya Sans', cursive;
     text-align:center;
   }
   position: absolute;
-  left: 50%;
+  left: 35%;
   top: 50%;
   margin: -75px 0 0 -75px;
   border-radius: 50%;
@@ -146,7 +146,7 @@ $angle: 360deg / $items;
     line-height: 12px;
     white-space: nowrap;
     box-shadow: 4px 4px 8px transparent;
-    font-family: Lobster;
+    font-family: "Alegreya Sans";
 }
 .hint--top:after, .hint--bottom:after {
     padding: 10px 0px;
