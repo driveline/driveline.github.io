@@ -1,1 +1,357 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}.hint,[data-hint]{position:relative;display:inline-block}.hint:before,.hint:after,[data-hint]:before,[data-hint]:after{position:absolute;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);visibility:hidden;opacity:0;z-index:1000000;pointer-events:none;-webkit-transition:0.3s ease;-moz-transition:0.3s ease;transition:0.3s ease}.hint:hover:before,.hint:hover:after,.hint:focus:before,.hint:focus:after,[data-hint]:hover:before,[data-hint]:hover:after,[data-hint]:focus:before,[data-hint]:focus:after{visibility:visible;opacity:1}.hint:before,[data-hint]:before{content:'';position:absolute;background:transparent;border:6px solid transparent;z-index:1000001}.hint:after,[data-hint]:after{content:attr(data-hint);background:#383838;color:white;text-shadow:0 -1px 0px #000;padding:8px 10px;font-size:12px;line-height:12px;white-space:nowrap;box-shadow:4px 4px 8px rgba(0,0,0,0.3)}.hint--top:before{margin-bottom:-12px}.hint--top:after{margin-left:-18px}.hint--top:before,.hint--top:after{bottom:100%;left:50%}.hint--top:hover:after,.hint--top:hover:before,.hint--top:focus:after,.hint--top:focus:before{-webkit-transform:translateY(-8px);-moz-transform:translateY(-8px);transform:translateY(-8px)}.hint--bottom:before{margin-top:-12px}.hint--bottom:after{margin-left:-18px}.hint--bottom:before,.hint--bottom:after{top:100%;left:50%}.hint--bottom:hover:after,.hint--bottom:hover:before,.hint--bottom:focus:after,.hint--bottom:focus:before{-webkit-transform:translateY(8px);-moz-transform:translateY(8px);transform:translateY(8px)}.hint--right:before{margin-left:-12px;margin-bottom:-6px}.hint--right:after{margin-bottom:-14px}.hint--right:before,.hint--right:after{left:100%;bottom:50%}.hint--right:hover:after,.hint--right:hover:before,.hint--right:focus:after,.hint--right:focus:before{-webkit-transform:translateX(8px);-moz-transform:translateX(8px);transform:translateX(8px)}.hint--left:before{margin-right:-12px;margin-bottom:-6px}.hint--left:after{margin-bottom:-14px}.hint--left:before,.hint--left:after{right:100%;bottom:50%}.hint--left:hover:after,.hint--left:hover:before,.hint--left:focus:after,.hint--left:focus:before{-webkit-transform:translateX(-8px);-moz-transform:translateX(-8px);transform:translateX(-8px)}[class*="entypo-"]:before{font-family:'entypo', sans-serif}body{background-color:#8cc}*{box-sizing:border-box}html,body{overflow:hidden}#menu{width:150px;height:150px;position:absolute;left:50%;top:50%;margin:-75px 0 0 -75px;list-style:none;font-size:200%}.menu-button{opacity:0;z-index:-1}.menu-button{width:150px;height:150px;position:absolute;left:50%;top:50%;margin:-75px 0 0 -75px;border-radius:50%;background:#fff;overflow:hidden;text-decoration:none}.menu-button h1{line-height:150px;color:#8cc;margin:0px;font-size:20px;font-family:'Lobster', cursive;font-weight:900;text-align:center}.icon-plus:before,.icon-minus:before{color:#8cc;position:relative;top:40%;left:42%;opacity:0;transition:opacity 500ms ease-in}#menu:not(:target)>a:first-of-type,#menu:target>a:last-of-type{opacity:1;z-index:1}#menu:not(:target)>.icon-plus:before,#menu:target>.icon-minus:before{opacity:1}.menu-item{width:100px;height:100px;position:absolute;left:50%;top:50%;margin:-50px 0 0 -50px;border-radius:50%;background:#8cc;transform:translate(0px, 0px);-webkit-transform:translate(0px, 0px);-moz-transform:translate(0px, 0px);transition:transform 500ms;transition:-webkit-transform 500ms;transition:-moz-transform 500ms;z-index:-2}.menu-item a{color:#fff;position:relative;line-height:300%;left:0%;text-decoration:none;display:block;text-align:center;height:100%}.menu-item:hover{box-shadow:0 0 0 7px #fff;z-index:1}.menu-item:active{background:#9dd}#menu:target>.menu-item:nth-child(3){transition-delay:75ms;transform:translate(0.0px, -140px);-webkit-transform:translate(0.0px, -140px);-moz-transform:translate(0.0px, -140px)}#menu:target>.menu-item:nth-child(4){transition-delay:150ms;transform:translate(121.24356px, -70.0px);-webkit-transform:translate(121.24356px, -70.0px);-moz-transform:translate(121.24356px, -70.0px)}#menu:target>.menu-item:nth-child(5){transition-delay:225ms;transform:translate(121.24356px, 70.0px);-webkit-transform:translate(121.24356px, 70.0px);-moz-transform:translate(121.24356px, 70.0px)}#menu:target>.menu-item:nth-child(6){transition-delay:300ms;transform:translate(0.0px, 140px);-webkit-transform:translate(0.0px, 140px);-moz-transform:translate(0.0px, 140px)}#menu:target>.menu-item:nth-child(7){transition-delay:375ms;transform:translate(-121.24356px, 70.0px);-webkit-transform:translate(-121.24356px, 70.0px);-moz-transform:translate(-121.24356px, 70.0px)}#menu:target>.menu-item:nth-child(8){transition-delay:450ms;transform:translate(-121.24356px, -70.0px);-webkit-transform:translate(-121.24356px, -70.0px);-moz-transform:translate(-121.24356px, -70.0px)}.hint:after,[data-hint]:after{content:attr(data-hint);background:transparent;color:#fff;text-shadow:0 -1px 0 transparent;padding:5px 10px;font-size:20px;line-height:12px;white-space:nowrap;box-shadow:4px 4px 8px transparent;font-family:Lobster}.hint--top:after,.hint--bottom:after{padding:10px 0px}
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css);
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*-------------------------------------*\
+	HINT.css - A CSS tooltip library
+\*-------------------------------------*/
+/**
+ * HINT.css is a tooltip library made in pure CSS.
+ *
+ * Source: https://github.com/chinchang/hint.css
+ * Demo: http://kushagragour.in/labs/hint/
+ *
+ * Release under The MIT License
+ *
+ */
+/**
+ * source: hint-core.scss
+ *
+ * Defines the basic styling for the tooltip.
+ * Each tooltip is made of 2 parts:
+ * 	1) body (:after)
+ * 	2) arrow (:before)
+ * 
+ * Classes added:
+ * 	1) hint
+ */
+/* line 13, ../scss/vendors/_hint-core.scss */
+.hint, [data-hint] {
+  position: relative;
+  display: inline-block;
+  /**
+   * tooltip arrow
+   */
+  /**
+   * tooltip body
+   */
+}
+/* line 17, ../scss/vendors/_hint-core.scss */
+.hint:before, .hint:after, [data-hint]:before, [data-hint]:after {
+  position: absolute;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1000000;
+  pointer-events: none;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+/* line 41, ../scss/vendors/_hint-core.scss */
+.hint:hover:before, .hint:hover:after, .hint:focus:before, .hint:focus:after, [data-hint]:hover:before, [data-hint]:hover:after, [data-hint]:focus:before, [data-hint]:focus:after {
+  visibility: visible;
+  opacity: 1;
+}
+/* line 49, ../scss/vendors/_hint-core.scss */
+.hint:before, [data-hint]:before {
+  content: '';
+  position: absolute;
+  background: transparent;
+  border: 6px solid transparent;
+  z-index: 1000001;
+}
+/* line 61, ../scss/vendors/_hint-core.scss */
+.hint:after, [data-hint]:after {
+  content: attr(data-hint);
+  background: #383838;
+  color: white;
+  text-shadow: 0 -1px 0px black;
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 12px;
+  white-space: nowrap;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/**
+ * source: hint-position.scss
+ *
+ * Defines the positoning logic for the tooltips.
+ * 
+ * Classes added:
+ * 	1) hint--top
+ * 	2) hint--bottom
+ * 	3) hint--left
+ * 	4) hint--right
+ */
+/**
+ * set default color for tooltip arrows
+ */
+/**
+ * top tooltip
+ */
+/* line 14, ../scss/vendors/_hint-position.scss */
+.hint--top:before {
+  margin-bottom: -12px;
+}
+/* line 19, ../scss/vendors/_hint-position.scss */
+.hint--top:after {
+  margin-left: -18px;
+}
+/* line 24, ../scss/vendors/_hint-position.scss */
+.hint--top:before, .hint--top:after {
+  bottom: 100%;
+  left: 50%;
+}
+/* line 27, ../scss/vendors/_hint-mixins.scss */
+.hint--top:hover:after, .hint--top:hover:before, .hint--top:focus:after, .hint--top:focus:before {
+  -webkit-transform: translateY(-8px);
+  -moz-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+/**
+ * bottom tooltip
+ */
+/* line 14, ../scss/vendors/_hint-position.scss */
+.hint--bottom:before {
+  margin-top: -12px;
+}
+/* line 19, ../scss/vendors/_hint-position.scss */
+.hint--bottom:after {
+  margin-left: -18px;
+}
+/* line 24, ../scss/vendors/_hint-position.scss */
+.hint--bottom:before, .hint--bottom:after {
+  top: 100%;
+  left: 50%;
+}
+/* line 27, ../scss/vendors/_hint-mixins.scss */
+.hint--bottom:hover:after, .hint--bottom:hover:before, .hint--bottom:focus:after, .hint--bottom:focus:before {
+  -webkit-transform: translateY(8px);
+  -moz-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+/**
+ * right tooltip
+ */
+/* line 35, ../scss/vendors/_hint-position.scss */
+.hint--right:before {
+  margin-left: -12px;
+  margin-bottom: -6px;
+}
+/* line 42, ../scss/vendors/_hint-position.scss */
+.hint--right:after {
+  margin-bottom: -14px;
+}
+/* line 47, ../scss/vendors/_hint-position.scss */
+.hint--right:before, .hint--right:after {
+  left: 100%;
+  bottom: 50%;
+}
+/* line 27, ../scss/vendors/_hint-mixins.scss */
+.hint--right:hover:after, .hint--right:hover:before, .hint--right:focus:after, .hint--right:focus:before {
+  -webkit-transform: translateX(8px);
+  -moz-transform: translateX(8px);
+  transform: translateX(8px);
+}
+
+/**
+ * left tooltip
+ */
+/* line 35, ../scss/vendors/_hint-position.scss */
+.hint--left:before {
+  margin-right: -12px;
+  margin-bottom: -6px;
+}
+/* line 42, ../scss/vendors/_hint-position.scss */
+.hint--left:after {
+  margin-bottom: -14px;
+}
+/* line 47, ../scss/vendors/_hint-position.scss */
+.hint--left:before, .hint--left:after {
+  right: 100%;
+  bottom: 50%;
+}
+/* line 27, ../scss/vendors/_hint-mixins.scss */
+.hint--left:hover:after, .hint--left:hover:before, .hint--left:focus:after, .hint--left:focus:before {
+  -webkit-transform: translateX(-8px);
+  -moz-transform: translateX(-8px);
+  transform: translateX(-8px);
+}
+
+/* entypo */
+/* line 12, ../scss/screen.scss */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* line 20, ../scss/screen.scss */
+html, body {
+  height: 100px;
+}
+
+/* line 24, ../scss/screen.scss */
+body {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("http://www.socwall.com/images/wallpapers/37014-1920x1200.jpg");
+  bacground-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 35, ../scss/screen.scss */
+#menu > a img {
+  width: 50%;
+  margin: 40px auto;
+  display: block;
+}
+
+/* line 44, ../scss/screen.scss */
+* {
+  Box-sizing: Border-box;
+}
+
+/* line 48, ../scss/screen.scss */
+html, body {
+  overflow: hidden;
+}
+
+/* line 52, ../scss/screen.scss */
+#menu {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -75px 0 0 -75px;
+  list-style: none;
+  font-size: 180%;
+}
+
+/* line 63, ../scss/screen.scss */
+.menu-button {
+  opacity: 0;
+  z-index: -1;
+}
+
+/* line 68, ../scss/screen.scss */
+.menu-button {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+  text-decoration: none;
+}
+/* line 71, ../scss/screen.scss */
+.menu-button h1 {
+  line-height: 150px;
+  color: #8cc;
+  margin: 0px;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+/* line 89, ../scss/screen.scss */
+#menu > a:first-of-type {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* line 94, ../scss/screen.scss */
+.menu-item {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -50px 0 0 -50px;
+  border-radius: 50%;
+  background: #282828;
+  z-index: -2;
+}
+
+/* line 106, ../scss/screen.scss */
+.menu-item a {
+  color: #fff;
+  position: relative;
+  top: 35%;
+  left: 35%;
+  text-decoration: none;
+}
+
+/* line 114, ../scss/screen.scss */
+.menu-item:hover {
+  box-shadow: 0 0 0 7px #fff;
+  z-index: 1;
+}
+
+/* line 119, ../scss/screen.scss */
+.menu-item:active {
+  background: #9dd;
+}
+
+/* line 134, ../scss/screen.scss */
+#menu > .menu-item:nth-child(3) {
+  transform: translate(0.0px, -250px);
+}
+
+/* line 134, ../scss/screen.scss */
+#menu > .menu-item:nth-child(4) {
+  transform: translate(216.50635px, -125.0px);
+}
+
+/* line 134, ../scss/screen.scss */
+#menu > .menu-item:nth-child(5) {
+  transform: translate(216.50635px, 125.0px);
+}
+
+/* line 134, ../scss/screen.scss */
+#menu > .menu-item:nth-child(6) {
+  transform: translate(0.0px, 250px);
+}
+
+/* line 134, ../scss/screen.scss */
+#menu > .menu-item:nth-child(7) {
+  transform: translate(-216.50635px, 125.0px);
+}
+
+/* line 134, ../scss/screen.scss */
+#menu > .menu-item:nth-child(8) {
+  transform: translate(-216.50635px, -125.0px);
+}
+
+/* line 139, ../scss/screen.scss */
+.hint:after, [data-hint]:after {
+  content: attr(data-hint);
+  background: transparent;
+  color: #fff;
+  text-shadow: 0 -1px 0 transparent;
+  padding: 5px 10px;
+  font-size: 20px;
+  line-height: 12px;
+  white-space: nowrap;
+  box-shadow: 4px 4px 8px transparent;
+  font-family: Lobster;
+}
+
+/* line 151, ../scss/screen.scss */
+.hint--top:after, .hint--bottom:after {
+  padding: 10px 0px;
+}
