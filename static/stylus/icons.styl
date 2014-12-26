@@ -1,0 +1,53 @@
+
+.team_driveline_container
+  width: 500px
+  margin: 0px auto
+  position: relative
+
+.team_driveline_main
+    width: 500px
+
+.team_driveline_container .icon {
+  position: absolute;
+}
+.team_driveline_container .icon img {
+  position: relative;
+  z-index: 2;
+  -webkit-transform: scale(0.5,  0.5);
+  -moz-transform: scale(0.5,  0.5);
+  -ms-transform: scale(0.5,  0.5);
+  -o-transform: scale(0.5,  0.5);
+  transform: scale(0.5,  0.5);
+  -webkit-transition: scale, 0.1s, ease-out;
+  -moz-transition: scale, 0.1s, ease-out;
+  -o-transition: scale, 0.1s, ease-out;
+  transition: scale, 0.1s, ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+
+.image-desc-tooltip {
+  position: absolute;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 15px;
+  width: 50%;
+  text-align: center;
+  top: 250px;
+  font-size: 15px;
+  left: 120px;
+  color: #eee;
+  z-index: -3;
+}
+
+.image-desc-text{
+  position: absolute;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  top: 200px;
+  z-index: -3;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  color:#fff;
+}

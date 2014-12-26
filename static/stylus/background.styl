@@ -1,0 +1,129 @@
+li
+  list-style: none
+  text-align: center
+  margin-bottom: 10px
+  color: rgba(white, 0.6)
+  &.social-link
+    font-size: 1em
+    border: 1px solid white
+    a
+      padding: .5em
+    margin: 0
+    float: left
+    &:hover
+      background-color: rgba(white, 0.9)
+      a
+        color: #222
+a
+  color: white
+  display: block
+  text-decoration: none
+#instafeed a
+  line-height: 0
+  margin: 0
+  padding: 0
+  float: left
+#instafeed
+  width: 240%
+  margin: 0 auto
+  text-align: center
+  img
+    width: 240px
+.footer-links
+  z-index: 3
+  position: absolute
+  width: 100%
+  ul
+    width: 245px
+    margin: 0 auto
+    text-align: center
+    padding: 0px
+    margin: 0 px
+    margin-top: 120px
+#background
+  width: 100%
+  z-index: -100;
+  overflow: hidden
+  position: fixed
+  top: 0
+  height: 100%
+  &:before, &:after
+    content: ""
+    width: 100%
+    height: 100%
+    opacity: 1
+    z-index: 1
+    background: rgba(34, 34, 34, 0.5)
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+  &:after
+    bottom: 0
+    transform: rotate(180deg)
+#instafeed
+  position: fixed
+  left: 0
+  top: 0
+  animation-name: back
+  animation-duration: 100s
+  animation-timing-function: linear
+  animation-iteration-count: infinite
+  -webkit-animation-name: back
+  -webkit-animation-duration: 100s
+  -webkit-animation-timing-function: linear
+  -webkit-animation-iteration-count: infinite
+  -moz-animation-name: back
+  -moz-animation-duration: 100s
+  -moz-animation-timing-function: linear
+  -moz-animation-iteration-count: infinite
+  -o-animation-name: back
+  -o-animation-duration: 100s
+  -o-animation-timing-function: linear
+  -o-animation-iteration-count: infinite
+
+
+@-moz-keyframes back {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+@-webkit-keyframes back {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+@-o-keyframes back {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+@keyframes back {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
